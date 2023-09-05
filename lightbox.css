@@ -1,14 +1,3 @@
-/*  JavaScript 7th Edition
-    Chapter 5
-    Chapter Case
-
-    Filename: lightbox.css
-*/
-
-/* --------------------------------------------------------------*/
-/* Styles for the slideshow box containing the images and tools  */
-/* --------------------------------------------------------------*/
-
 /* Styles for the box containing the slideshow and tools */
 div#lightbox {
   position: relative;
@@ -22,8 +11,7 @@ div#lightbox h1#lbTitle {
   width: 100%;
   text-align: center;
   font-size: 2.4em;
-  font-family: Cambria, "Hoefler Text", "Liberation Serif", Times,
-    "Times New Roman", "serif";
+  font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
   margin: 0 0 20px 0;
 }
 
@@ -78,18 +66,13 @@ div#lightbox div#lbCounter {
   z-index: 1;
   width: 70px;
   height: 26px;
-  line-height: 20px;
-  font-size: 20px;
   background-color: rgba(0, 0, 0, 0.5);
   border-radius: 4px;
   text-align: center;
   color: white;
   top: 60px;
   left: 0px;
-  font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro",
-    "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
   padding: 3px;
-  user-select: none;
 }
 
 /* Styles for the play-pause button */
@@ -103,23 +86,7 @@ div#lightbox div#lbPlay {
   margin: 0 auto;
   text-shadow: 3px 3px 20px black;
   cursor: pointer;
-  user-select: none;
   filter: grayscale(1);
-}
-
-/* Hovering styles for the play-pause button */
-div#lightbox div#lbPlay:hover {
-  position: absolute;
-  top: 250px;
-  left: 47.5%;
-  text-align: center;
-  font-size: 2.2em;
-  width: 40px;
-  margin: 0 auto;
-  text-shadow: 3px 3px 20px black;
-  cursor: pointer;
-  user-select: none;
-  filter: grayscale(0.6) hue-rotate(120deg);
 }
 
 /* Styles for images within the slideshow box */
@@ -152,12 +119,7 @@ div#lbOverlay {
   height: 100%; /* Full height */
   top: 0;
   left: 0;
-  background-color: rgba(
-    104,
-    49,
-    0,
-    0.85
-  ); /* Semitransparent brown background */
+  background-color: rgba(104, 49, 0, 0.85); /* Semitransparent brown background */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -284,12 +246,7 @@ div#lbOverlayAdd #lbMessageBox {
   height: 100%; /* Full height */
   top: 0;
   left: 0;
-  background-color: rgba(
-    104,
-    49,
-    0,
-    0.85
-  ); /* Semitransparent brown background */
+  background-color: rgba(104, 49, 0, 0.85); /* Semitransparent brown background */
   display: flex;
   justify-content: center;
   align-items: center;
